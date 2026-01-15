@@ -13,7 +13,7 @@ from typing import Callable, Dict, List, Tuple
 import pcbnew
 import wx
 
-from KLEPlacement.simplekleparser import KeySpec
+from .simplekleparser import KeySpec
 
 from .cfgman import ConfigMan
 from .interface.DlgKLEP import DlgKLEP
